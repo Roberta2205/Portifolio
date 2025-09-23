@@ -129,10 +129,10 @@ span {
 .h1-trajetoria {
     font-size: 3rem;
     font-weight: bold;
-    color: #A9CDE7;
+    margin-bottom: 6px;
     display: flex;
     justify-content: center;
-    margin: 90px 150px 30px 150px;
+     color: #A9CDE7;
 }
 
 .p-trajetoria {
@@ -166,9 +166,11 @@ span {
 
 .div-cards-skills {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.25rem;
-    place-items: center;
+    margin: 0 200px;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    width: 100%;
 }
 
 .div-cards-skills:hover {
@@ -176,13 +178,12 @@ span {
 }
 
 .div-card {
-    border-radius: 15px;
-    background-color: #F7D9E3;
-    box-shadow: 0 0.25rem 4rem #902a4c;
-    transition: all 0.5s ease;
-    max-width: 280px;
-    position: relative;
-    margin: 30px 20px;
+    background: #F7D9E3;
+      border-radius: 10px 10px 0 0;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+      transition: transform 0.8s;
 }
 
 .div-card:hover {
@@ -191,8 +192,20 @@ span {
     box-shadow: 0 0.25rem 4rem #021544;
 }
 
+.div-card::after {
+    content: "";
+      display: block;
+      height: 4px;
+      background: linear-gradient(90deg, #7b2ff7, #f107a3);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      border-radius: 0 0 10px 10px;
+      }
+
 .div-img {
-    height: 50px;
+    height: 20px;
 }
 
 .imagem-skills {
@@ -213,22 +226,14 @@ span {
 }
 
 .h1-card-skills {
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: bold;
     margin-bottom: 2rem;
     text-align: center;
+    margin: 30px auto;
 }
 
-.p-card-skills {
-    color: #222222;
-    transition: all 0.7s ease;
-    font-size: 0.9rem;
-    line-height: 1.5rem;
-    text-align: center;
-    margin-bottom: 0.5rem;
-}
-
-.div-card:hover .p-card-skills {
+.div-card:hover {
     color: #FAFAFA;
 }
 
@@ -415,16 +420,18 @@ span {
     margin: 0 50px;
 }
 
-.imagens-contato {
-    height: 30px;
+.icones-contato {
+    height: 100px;
     display: flex;
     gap: 15px;
     justify-content: center;
 }
 
-.img-footer {
-    width: 150px;
-    height: 150px;
+.icon-footer {
+    width: 60px;
+    height: 60px;
+    color: white;
+    cursor: pointer;
     object-fit: contain;
 }
 
@@ -442,9 +449,11 @@ span {
 }
     .div-cards-skills {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: auto;
+        justify-content: center;
+        gap: 40px;
     }
 
     .card-premio {
@@ -467,9 +476,9 @@ span {
     .div-rodape {
         display: flex;
         flex-direction: column;
-        padding: 7rem 0;
         align-items: center;
         text-align: center;
+        height: auto;
     }
 }
 
@@ -479,7 +488,9 @@ span {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        margin: 80px auto;
     }
+    
 
     .div-trajetoria {
        display: none;
