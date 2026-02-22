@@ -1,0 +1,36 @@
+#sobre {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+.title-sobre {
+  font-size: 3rem;
+  color: #6D4C4C;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.description-sobre {
+  font-size: 1.2rem;
+  color: #333333;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 1170px) {
+  .title-sobre {
+    font-size: 2rem;
+  }
+
+  .description-sobre {
+    font-size: 1rem;
+    padding: 0 16px;
+  }
+}

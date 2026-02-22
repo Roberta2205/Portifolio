@@ -1,0 +1,75 @@
+#projetos {
+    padding: 2.5rem 3rem;
+    margin: 0 auto;
+    min-height: 600px;
+}
+
+#div-projetos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px; 
+  max-width: 1200px;
+  margin: 0 auto; 
+  padding: 40px 20px;
+
+  align-items: start;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+}
+
+.imagem-projeto {
+  width: 100%;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+
+.projeto-title {
+    color: #A67C8A;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.projeto-description {
+    padding: 12px;
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.card.ativo .projeto-description {
+  display: block;
+}
+
+.botao-projeto {
+  margin-top: auto; /* mantém os botões alinhados */
+  display: flex;
+  gap: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+@media (max-width: 1024px) {
+  #div-projetos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  #div-projetos {
+    grid-template-columns: 1fr;
+  }
+}

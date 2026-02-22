@@ -1,0 +1,160 @@
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 20px;
+}
+
+#dishes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    width: 100%;
+    max-width: 1100px;
+    margin-top: 40px;
+}
+
+.dish {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    gap: 20px;
+    padding: 24px;
+    background-color: #F7D9E3;
+    box-shadow: 0px 0px 10px 2px #A67C8A;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.dish:hover {
+    background-color: #F7B2C9;
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px #A67C8A;
+}
+
+.dish-title {
+    color: #6D4C4C;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 1170px) {
+    #dishes {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #dishes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .dish {
+        text-align: center;
+        padding: 16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

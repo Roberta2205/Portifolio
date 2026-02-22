@@ -1,532 +1,630 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="src/styles/style.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="src/Img/icons/icon_butterfly.svg"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>Portifólio Roberta Lau</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Epunda+Slab:ital,wght@0,300..900;1,300..900&display=swap"
-        rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="./assets/icon_butterfly.svg">
-    <title>Portifólio Roberta</title>
-</head>
-
-<body>
+  <body>
     <header>
-        <div class="div-container">
-            <div class="div-logo">
-                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADuklEQVR4nO2Yz08TQRTH508wSqLRBJHuFGhPYiIePHCQ3+1MQ+IV8YgXEjxqhJvx4AFNjP8AzKYXA9zkKAai5dcyWzSRiF4UrkaZpazPzC6lpV1od7ut3YRvsrd2+j59333vzUPoTAETLHZ1iKQSQUEVrPW/FKoyjoIqU4ttG6qyiYIo0ONR0CkYKoZA2gh0OnEEEEQbgU71LEDgbASH9skBBMxGcGifYwBBsBFwEgFOxkEnO4UAhop3JISXTECqp10w3FadoLXBZtDJKOh0IRt0/pMHkHsY1g2GJ8qFAa3/mWD4kX9BL/a3Haz1PgEtvuYUdEkAlzCgxdOC4WXfAIzpUFT+qPXjJQIsBQgbsR+w2scyS90Jx+A3aRNw+leetTeFm32DKBfGOXCyBZxOAk/cLnU+cPrwqJ+w8JjvAE4wguHdIgBOdu3qFI+6ORN08j4HoCygWsjKSDGA6zIKvP8ScGLmOjo2f0+3XEbVlpgKtzoAuC+fafqgsBjsM2UE1ULZd8IOnnIvZwCn80XVjCnzqJY28myfdOIC6DRT1NGZkoGpcAOqlY0824eT+yf2E4aHUa1sZGrxr16+CzqZPQVgFtXKRuZK34tyPw/87nng8Xug05l8+xQCCKZkJITMBCQj56sHMB2Kwsfum6cG/SnWAGkyBDqZA50YbkcSwfCB7A+CKaM1KbFW0DzWaA2AdpU59k97nqlUu08IhlN2M20N+xv0Um/EHgBjK3K2KSdotwDGCYPifjJ0o2IAOYjJNNvpxtZw5uYBl8B29Yt/MVcHnsv7BPJTf5LNjRJGNiXrhfQLgBMTOElZM1c64c1CkLpzy82tSzYlQ8VDhornBFMM1wCcHNiXKTIKnweuoEplrvS+lr7z8l1ZEmVplCWyMDNwPPCMVbU4HZYdu+KgjwWhxb77sUYxVDxzCsAMqvdtnJWJkwA4Ha76Ns6rjY7OenP1nFCVfQeAjGx+/kVdxW2crFLF9wr6FlVDsEE7C5vOHgt1VnKmvLwUZyAx4rfnJ7L/vHPXVLYMVZncT4ZLXuAL9Wv62kU5HuSN5SZsksrmHVjvaTdX+yZBi2+7b/vuYWTnzmWAvEN+jgSum85G7OdpOyBngPBYXgbGKgYoB6YgcGmvCdhMeBqo9lhLk5ydQJ6lDfq/2Mr9UKizCGCDVvQSZyXXiqDFPC0Gar6JcJJQ8WNYH3iK6n0TcZLkah0+9F7367yqbSLqQkLF3Fwf+IaCKqEq4+Zy3ysUVImkEoFUV8f/juNMqA71D6NwF6uWqkzRAAAAAElFTkSuQmCC"
-                    alt="sparkling">
-            </div>
+      <nav id="navbar">
+        <i class="fa-solid fa-heart"></i>
 
-            <div class="div-list">
-                <ul class="ul-list">
-                    <li> <a href="#" class="li-link" id="li-inicio">Início</a></li>
-                    <li> <a href="#" class="li-link" id="li-trajetoria">Trajetória</a></li>
-                    <li> <a href="#" class="li-link" id="li-skills">Habilidades</a></li>
-                    <li> <a href="#" class="li-link" id="li-projetos">Projetos</a></li>
-                    <li> <a href="#" class="li-link" id="li-premiacoes">Premiações</a></li>
-                    <li> <a href="#" class="li-link" id="li-contato">Contato</a></li>
-                </ul>
-            </div>
-        </div>
+        <ul id="nav_list">
+          <li class="nav_item"><a href="#home">Home</a></li>
+          <li class="nav_item"><a href="#trajetoria">Trajetória</a></li>
+          <li class="nav_item"><a href="#skills">Habilidades</a></li>
+          <li class="nav_item"><a href="#projetos">Projetos</a></li>
+          <li class="nav_item"><a href="#premio-page">Reconhecimento</a></li>
+          <li class="nav_item"><a href="#footer_items">Contato</a></li>
+        </ul>
+
+        <button id="mobile_btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+
+      <div id="mobile_menu">
+        <ul id="mobile_nav_list">
+          <li class="nav_item"><a href="#home">Home</a></li>
+          <li class="nav_item"><a href="#trajetoria">Trajetória</a></li>
+          <li class="nav_item"><a href="#skills">Habilidades</a></li>
+          <li class="nav_item"><a href="#projetos">Projetos</a></li>
+          <li class="nav_item"><a href="#premio-page">Reconhecimento</a></li>
+          <li class="nav_item"><a href="#footer_items">Contato</a></li>
+        </ul>
+      </div>
     </header>
 
+    <main>
+      <section id="home">
+        <div id="div-home">
+          <h1 class="title">
+            Roberta Lau <br />
+            Full-Stack Developer
+          </h1>
 
-    <main id="home-page">
-        <div class="div-main">
-            <div class="div-home">
-                <p class="p-home">Olá, seja bem-vindo (a)!<br>
-                    <br>Eu me chamo <span>Roberta Lau</span>.<br>
-                    Desenvolvedora Front-End, apaixonada por criar experiêcias digitais memoráveis.<br>
-                    É uma honra que você esteja visitando meu portifólio e conhecendo um pouco sobre meu trabalho.
-                </p>
-            </div>
+          <p class="description">
+            Olá, espero que esse portifólio te encontre bem!<br />
+            Muito prazer, eu me chamo Roberta Lau e aqui você vai encontrar um
+            pouco sobre a minha história, meus projetos e entender sobre a minha
+            paixão por desenvolvimento web.
+          </p>
 
-            <div>
-                <img src="./assets/foto perfil.png" alt="Imagem portifólio" class="img-home">
-            </div>
+          <div class="social-media-buttons">
+          <a href="https://wa.me//5551995165129" class="social-media-button">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+
+          <a
+            href="https://www.instagram.com/robertalau_"
+            class="social-media-button"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
         </div>
-    </main>
+        </div>
 
-    <section class="section-trajetoria" id="trajetoria-page">
-        <div class="div-trajetoria">
-            <h1 class="h1-trajetoria">Minha trajetória 🌱</h1>
-            <p class="p-trajetoria">Eu transicionei de uma carreira como auxiliar administrativo, onde desenvolvi
-                habilidades valiosas de
-                organização e gestão de tempo. Agora, estou focada em construir uma carreira em programação, estudando
-                HTML, CSS, JavaScript, atualmente aprendendo React e explorando diversas ferramentas como N8N e
-                Inteligência Artificial.
-                Meu objetivo é iniciar na área de Front-End, dominando as ferramentas essenciais, para evoluir
-                continuamente e expandir meu conhecimento para outras áreas tecnológicas, me tornando uma desenvolvedora
-                Full-Stack.
-                Sou dedicada, organizada, e trabalho bem em equipe. Amo estudar e estou sempre em busca de novos
-                conhecimentos. Ainda não sou fluente, mas estou aprimorando meu inglês, atualmente em nível básico.
+        <div id="banner">
+          <img src="src/Img/img-home.png" alt="imagem-home" />
+        </div>
+      </section>
+
+      <section id="trajetoria">
+        <div id="sobre">
+          <h1 class="title-sobre">Minha história</h1>
+
+          <p class="description-sobre">
+            Sou natural de Porto-Alegre, tenho 23 anos e sou completamente
+            apaixonada por desenvolvimento web. Venho de uma transição de
+            carreira de setores Administrativo/Financeiros, onde desenvolvi
+            habilidades valiosas de organização e gestão de tempo. Iniciei na
+            área da tecnologia com desenvolvimento front-end em Junho/25 e desde
+            então venho me dedicando a mostrar minhas habilidades criando sites
+            responsivos, interativos e que tragam a personalidade de cada
+            empreendimento. Estou sempre buscando novos desafios, aprendendo
+            novas tecnologias e aprimorando minhas habilidades para
+            continuamente crescer e aprender, me tornando uma desenvolvedora
+            Full-Stack futuramente.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h1 class="title">Habilidades & Linguagens</h1>
+
+        <div id="dishes">
+          <div class="dish">
+            <img src="src/Img/icons/icon-html.png" />
+
+            <h1 class="dish-title">HTML</h1>
+          </div>
+
+          <div class="dish">
+            <img src="src/Img/icons/icon-css.png" />
+
+            <h1 class="dish-title">CSS</h1>
+          </div>
+
+          <div class="dish">
+            <img src="src/Img/icons/icon-js.png" />
+
+            <h1 class="dish-title">JavaScript</h1>
+          </div>
+
+          <div class="dish">
+            <img src="src/Img/icons/icon-react.png" />
+
+            <h1 class="dish-title">React</h1>
+          </div>
+
+          <div class="dish">
+            <img src="src/Img/icons/icon-node.png" />
+
+            <h1 class="dish-title">Node</h1>
+          </div>
+
+          <div class="dish">
+            <img src="src/Img/icons/icon-IA.png" />
+
+            <h1 class="dish-title">IA</h1>
+          </div>
+
+          <div class="dish">
+            <img src="src/Img/icons/icons8-github.svg" />
+
+            <h1 class="dish-title">GitHub</h1>
+          </div>
+
+          <div class="dish">
+            <img src="src/Img/icons/icon-figma.svg" />
+
+            <h1 class="dish-title">Figma</h1>
+          </div>
+        </div>
+      </section>
+
+      <section id="projetos">
+        <h1 class="title-sobre">Projetos</h1>
+
+        <div id="div-projetos">
+          <div class="card">
+            <img
+              src="src/Img/Capas-projetos/Home-deliciasdalau.png"
+              alt="delicias-da-lau"
+              class="imagem-projeto"
+            />
+
+            <h2 class="projeto-title">Confeitaria Delícias da Lau</h2>
+
+            <p class="projeto-description">
+              Esta foi minha primeira landing page profissional, onde eu pude
+              colocar meus conhecimentos em HTML, CSS e JavaScript em prática
+              real. Foi um projeto muito especial, pois foi com ele que ganhei o
+              primeiro concurso de projetos que eu participei.
             </p>
+
+            <div class="botao-projeto">
+              <a
+                href="https://github.com/Roberta2205/Delicias-da-lau-confeitaria"
+                target="_blank"
+              >
+                <button class="button-repositorio">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-github"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                    />
+                  </svg>
+                  Repositório
+                </button>
+              </a>
+
+              <a
+                href="https://confeitariadeliciasdalau.netlify.app/"
+                target="_blank"
+              >
+                <button class="button-saiba-mais">Conheça o projeto</button>
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="src/Img/Capas-projetos/Home_cafeaurea.png"
+              alt="Cafe-aurea"
+              class="imagem-projeto"
+            />
+
+            <h2 class="projeto-title">Café Aurea</h2>
+
+            <p class="projeto-description">
+              Este projeto foi criado com a intenção de testar meus
+              conhecimentos em HTML, CSS e JavaScript, foi feito junto com o
+              professor do DEVCLUB em meio a teoria e prática nasceu o Café
+              Aurea, onde eu dei vida a uma landing page de cafeteria,
+              modificando algumas partes do projeto original para explorar meus
+              conhecimentos e deixar o site com mais personalidade.
+            </p>
+
+            <div class="botao-projeto">
+              <a
+                href="https://github.com/Roberta2205/Aura-coffe-cafeteria"
+                target="_blank"
+              >
+                <button class="button-repositorio">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-github"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                    />
+                  </svg>
+                  Repositório
+                </button>
+              </a>
+
+              <a
+                href="https://aura-coffe-cafeteriaa.netlify.app/"
+                target="_blank"
+              >
+                <button class="button-saiba-mais">Conheça o projeto</button>
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="src/Img/Capas-projetos/Home_ConversorMoedas.png"
+              alt="Home_ConversorMoedas"
+              class="imagem-projeto"
+            />
+
+            <h2 class="projeto-title">Conversor de Moedas</h2>
+
+            <p class="projeto-description">
+              Este projeto foi feito juntamente ao professor do DEVCLUB, foi o
+              primeiro projeto que eu usei java script na prática, um projeto
+              muito desafiador mas que me trouxe muitos conhecimentos em java
+              script, testei o que conhecia e com o andamento do projeto aprendi
+              muito.
+            </p>
+
+            <div class="botao-projeto">
+              <a
+                href="https://github.com/Roberta2205/Conversor-de-moedas-Dev-Club"
+                target="_blank"
+              >
+                <button class="button-repositorio">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-github"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                    />
+                  </svg>
+                  Repositório
+                </button>
+              </a>
+
+              <a
+                href="https://conversordemoedas-s.netlify.app/"
+                target="_blank"
+              >
+                <button class="button-saiba-mais">Conheça o projeto</button>
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="src/Img/Capas-projetos/Home_hamburgueria.png"
+              alt="Hamburgueria"
+              class="imagem-projeto"
+            />
+
+            <h2 class="projeto-title">Hamburgueria</h2>
+
+            <p class="projeto-description">
+              Realizado também no módulo de java script, eu pude aprender
+              conceitos diferentes entre CSS e Java Script. Um projeto muito
+              interessante e que me trouxe muito aprendizado, reforçando o que
+              eu já havia estudado na teoria mas ainda não tinha colocado em
+              prática.
+            </p>
+
+            <div class="botao-projeto">
+              <a
+                href="https://github.com/Roberta2205/Hamburgueria-Dev-Club"
+                target="_blank"
+              >
+                <button class="button-repositorio">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-github"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                    />
+                  </svg>
+                  Repositório
+                </button>
+              </a>
+
+              <a
+                href="https://hamburgueriadevclub.netlify.app/"
+                target="_blank"
+              >
+                <button class="button-saiba-mais">Conheça o projeto</button>
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="src/Img/Capas-projetos/Home_HarryPotter.png"
+              alt="Home_HarryPotter"
+              class="imagem-projeto"
+            />
+
+            <h2 class="projeto-title">Harry Potter</h2>
+
+            <p class="projeto-description">
+              Este projeto foi o primeiro que eu fiz na minha carreira como
+              desenvolvedora. Eu tinha feito apenas um módulo de HTML e CSS, e
+              resolvi criar algo informativo e criativo sobre uma saga que eu
+              amo com o objetivo de por em prática todas teorias que eu havia
+              estudado. Um site muito simples, mas que contém muito amor e
+              carinho.
+            </p>
+
+            <div class="botao-projeto">
+              <a
+                href="https://github.com/Roberta2205/Meu-primeiro-projeto-Site-Harry-Potter"
+                target="_blank"
+              >
+                <button class="button-repositorio">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-github"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                    />
+                  </svg>
+                  Repositório
+                </button>
+              </a>
+
+              <a href="https://siteharrypotterr.netlify.app/" target="_blank">
+                <button class="button-saiba-mais">Conheça o projeto</button>
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="src/Img/Capas-projetos/Home_Jokenpo.png"
+              alt="Jokenpo"
+              class="imagem-projeto"
+            />
+
+            <h2 class="projeto-title">Jokenpo</h2>
+
+            <p class="projeto-description">
+              Este projeto consiste na implementação do jogo Jokenpô (Pedra,
+              Papel e Tesoura) utilizando as linguagens: HTML, CSS e JAVA
+              SCRIPT. O objetivo principal é exercitar conceitos fundamentais de
+              programação, para que eu consiga uma base sólida de cada linguagem
+              e também adquira mais conhecimento e segurança em meus projetos.
+            </p>
+
+            <div class="botao-projeto">
+              <a
+                href="https://github.com/Roberta2205/Jogo-Jokenpo"
+                target="_blank"
+              >
+                <button class="button-repositorio">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-github"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                    />
+                  </svg>
+                  Repositório
+                </button>
+              </a>
+
+              <a href="https://gamejokenp.netlify.app/" target="_blank">
+                <button class="button-saiba-mais">Conheça o projeto</button>
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="src/Img/Capas-projetos/Home_PromptManager.png"
+              alt="PromptManager"
+              class="imagem-projeto"
+            />
+
+            <h2 class="projeto-title">Prompt Manager</h2>
+
+            <p class="projeto-description">
+              Eu tive a honra de participar de um projeto incrível realizado
+              pela Rocketseat e pelo Rodrigo Gonçalves. Neste projeto foi
+              desenvolvido um Prompt Manager, que nada mais é do que uma
+              aplicação web prática e intuitiva permitindo o armazenamento de
+              todos os seus prompts de Inteligência Artificial, garantindo mais
+              organização e um acesso rápido no dia a dia. Com esse projeto eu
+              aprendi a utilizar a IA do próprio VSCODE e entendi como ela pode
+              ser útil no dia a dia, garantindo muita agilidade na hora de codar
+              um projeto.
+            </p>
+
+            <div class="botao-projeto">
+              <a
+                href="https://github.com/Roberta2205/Prompt-Manager"
+                target="_blank"
+              >
+                <button class="button-repositorio">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-github"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                    />
+                  </svg>
+                  Repositório
+                </button>
+              </a>
+
+              <a href="https://nlwpromptmanagerr.netlify.app/" target="_blank">
+                <button class="button-saiba-mais">Conheça o projeto</button>
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="src/Img/Capas-projetos/home_siteMario.png"
+              alt="MarioBross"
+              class="imagem-projeto"
+            />
+
+            <h2 class="projeto-title">Mario Bross</h2>
+
+            <p class="projeto-description">
+              O objetivo deste site foi consolidar meus conhecimentos em HTML e
+              CSS, com novos aprendizados sobre display, responsividade e
+              formulários. Aprendi também novos conceitos de transição e
+              consolidei meu conhecimento com Java Script. Importante ressaltar
+              que com a criação deste site, aprendi a incluir formulários apenas
+              ao clicar no botão de orçamentos, e, também a fazê-lo sumir ao
+              clicar em qualquer lugar da tela fora dele bem como, aprendi a
+              fazer com que o formulário enviasse um email diretamente a pessoa
+              responsável pelos orçamentos do Mario & Luigi. Observação: a
+              imagem de fundo na verdade é um vídeo.
+            </p>
+
+            <div class="botao-projeto">
+              <a
+                href="https://github.com/Roberta2205/Site-Mario---Luigi"
+                target="_blank"
+              >
+                <button class="button-repositorio">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-github"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"
+                    />
+                  </svg>
+                  Repositório
+                </button>
+              </a>
+
+              <a href="https://irmaosbross.netlify.app/" target="_blank">
+                <button class="button-saiba-mais">Conheça o projeto</button>
+              </a>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
 
-
-
-    <section class="section-skills" id="skills-page">
-        <div class="div-skills">
-            <h1 class="h1-skills">Habilidades</h1>
-        </div>
-
-        <div class="div-cards-skills">
-            <div class="div-card">
-                <div class="div-img">
-                    <img src="./assets/Icone_Htmll.png" alt="imagem html" class="imagem-skills">
-                </div>
-
-                <div class="div-text-card-skills">
-                    <h1 class="h1-card-skills">HTML</h1>
-                </div>
-            </div>
-
-            <div class="div-card">
-                <div class="div-img">
-                    <img src="./assets/icone_css.png" alt="imagem css" class="imagem-skills">
-                </div>
-
-                <div class="div-text-card-skills">
-                    <h1 class="h1-card-skills">CSS</h1>
-                </div>
-            </div>
-
-            <div class="div-card">
-                <div class="div-img">
-                    <img src="./assets/icone_javascript.png" alt="imagem java script" class="imagem-skills">
-                </div>
-
-                <div class="div-text-card-skills">
-                    <h1 class="h1-card-skills">JAVA SCRIPT</h1>
-                </div>
-            </div>
-
-            <div class="div-card">
-                <div class="div-img">
-                    <img src="./assets/icone_github.png" alt="imagem github" class="imagem-skills">
-                </div>
-
-                <div class="div-text-card-skills">
-                    <h1 class="h1-card-skills">GIT & GITHUB</h1>
-                </div>
-            </div>
-
-            <div class="div-card">
-                <div class="div-img">
-                    <img src="./assets/icone_react.png" alt="imagem react" class="imagem-skills">
-                </div>
-
-                <div class="div-text-card-skills">
-                    <h1 class="h1-card-skills">REACT</h1>
-                </div>
-            </div>
-
-            <div class="div-card">
-                <div class="div-img">
-                    <img src="./assets/icone_node.png" alt="imagem node" class="imagem-skills">
-                </div>
-
-                <div class="div-text-card-skills">
-                    <h1 class="h1-card-skills">NODE</h1>
-                </div>
-            </div>
-
-            <div class="div-card">
-                <div class="div-img">
-                    <img src="./assets/Icone_IA (2).png" alt="imagem inteligência artificial" class="imagem-skills">
-                </div>
-
-                <div class="div-text-card-skills">
-                    <h1 class="h1-card-skills">Inteligência Artificial</h1>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="section-projetos" id="projetos-page">
-
+      <section class="section-premio" id="premio-page">
         <div>
-            <h1 class="h1-projetos">Projetos</h1>
-        </div>
-
-        <div class="div-todos-projetos">
-
-            <div class="card-projeto">
-                <div class="imagem-projeto">
-                    <img src="assets/Home_cafeaurea.png"
-                        alt="Imagem projeto cafeteria" class="img-projetos" onclick="toggleDescription('description1')">
-                </div>
-
-                <div class="div-explicacao-projeto">
-                    <h1 class="h1-titulo-projeto">Caffé Aurea | Cafeteria</h1>
-
-                    <p id="description1" class="description"> O projeto Caffé Aurea foi
-                        desenvolvido com o objetivo de unir design elegante e
-                        boas práticas de programação. Durante sua construção, trabalhei com HTML semântico, garantindo
-                        um código limpo, organizado e de fácil manutenção.<br>
-                        <br>
-                        Na parte visual, explorei o uso criativo de divs para estilização, aplicando interações sutis
-                        como efeitos hover, que tornam a navegação mais dinâmica e envolvente para o usuário. Além
-                        disso, dediquei atenção especial à responsividade, assegurando que o site ofereça uma
-                        experiência consistente e intuitiva em diferentes dispositivos, desde desktops até
-                        smartphones.<br>
-                        <br>
-                        Esse projeto me permitiu consolidar conhecimentos em estruturação, responsividade e experiência
-                        do usuário (UX), resultando em um site funcional, agradável e acessível.<br>
-                    </p>
-
-                    <div class="botao-projeto">
-
-                        <a href="https://github.com/Roberta2205/Aura-coffe-cafeteria" target="_blank">
-                            <button class="button-repositorio"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                            </svg> Repositório</button>
-                        </a>
-
-                        <a href="https://aura-coffe-cafeteriaa.netlify.app/" target="_blank">
-                            <button class="button-saiba-mais">Conheça o projeto</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-projeto">
-                <div class="imagem-projeto">
-                    <img src="assets/home-confeitaria.png"
-                        alt="Imagem projeto confeitaria" class="img-projetos"
-                        onclick="toggleDescription('description2')">
-                </div>
-
-                <div class="div-explicacao-projeto">
-                    <h1 class="h1-titulo-projeto">Lau´s Confeitaria Artesanal</h1>
-                    <p id="description2" class="description">
-                        Este projeto foi o meu primeiro trabalho desenvolvido de forma independente, com foco em
-                        aprimorar habilidades de HTML e CSS avançado, além de integrar JavaScript para criar interações
-                        dinâmicas e proporcionar uma experiência envolvente ao usuário.<br>
-                        <br>
-                        Ao clicar nos botões, efeitos especiais foram adicionados para tornar a navegação mais memorável
-                        e intuitiva. Apesar de simples, esse projeto foi marcante na minha trajetória, pois representou
-                        o início da minha jornada como desenvolvedora.
-                    </p>
-
-                    <div class="botao-projeto">
-
-                        <a href="https://github.com/Roberta2205/site-confeitaria" target="_blank">
-                            <button class="button-repositorio"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                             <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                             </svg> Repositório</button>
-                        </a>
-
-                        <a href="https://lausconfeitaria.netlify.app/" target="_blank">
-                            <button class="button-saiba-mais">Conheça o projeto</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-projeto">
-                <div class="imagem-projeto">
-                    <img src="assets/home_siteMario.png"
-                        alt="Imagem projeto Mario e Luigi" class="img-projetos"
-                        onclick="toggleDescription('description3')">
-                </div>
-
-                <div class="div-explicacao-projeto">
-                    <h1 class="h1-titulo-projeto">Projeto Mario & Luigi</h1>
-                    <p id="description3" class="description">
-                        Este projeto foi desenvolvido com o objetivo de aprofundar conhecimentos e
-                        explorar novos conceitos relacionados à usabilidade de formulários. Durante a construção,
-                        aprendi a estruturar e aplicar formulários de forma interativa e funcional, permitindo que o
-                        cliente recebesse e-mails automáticos de pessoas interessadas em seus serviços.<br>
-                        <br>
-                        Além disso, implementei a integração com o WhatsApp, possibilitando o envio direto de mensagens
-                        através de um link, o que garante praticidade e agilidade na comunicação.<br>
-                        <br>
-                        O site foi projetado de maneira responsiva, garantindo acessibilidade tanto em computadores
-                        quanto em dispositivos móveis, oferecendo uma experiência consistente em diferentes telas.
-                    </p>
-
-                    <div class="botao-projeto">
-
-                        <a href="https://github.com/Roberta2205/Site-Mario---Luigi" target="_blank">
-                            <button class="button-repositorio"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                            </svg> Repositório</button>
-                        </a>
-
-                        <a href="https://irmaosbross.netlify.app/" target="_blank">
-                            <button class="button-saiba-mais">Conheça o projeto</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="card-projeto">
-                <div class="imagem-projeto">
-                    <img src="assets/Home_hamburgueria.png"
-                        alt="Imagem projeto Hamburgueria" class="img-projetos"
-                        onclick="toggleDescription('description4')">
-                </div>
-
-                <div class="div-explicacao-projeto">
-                    <h1 class="h1-titulo-projeto">Hamburgueria</h1>
-                    <p id="description4" class="description">
-                        ste projeto foi desenvolvido durante o módulo de JavaScript no curso DevClub, com o objetivo de
-                        aprofundar conhecimentos práticos e consolidar conceitos fundamentais da linguagem.<br>
-                        <br>
-                        Através da implementação de exercícios, explorei o uso das funções map, filter e reduce,
-                        aplicando-as em diferentes cenários para compreender suas possibilidades e aplicações no dia a
-                        dia do desenvolvimento.<br>
-                        <br>
-                        O projeto foi estruturado de forma simples e direta, mas representou um passo importante na
-                        consolidação de lógica de programação e no domínio de recursos que tornam o código mais
-                        eficiente e expressivo.<br>
-                        <br>
-                        O site é responsivo, podendo ser acessado tanto em computadores quanto em dispositivos móveis.
-                    </p>
-
-                    <div class="botao-projeto">
-
-                        <a href="https://github.com/Roberta2205/Hamburgueria-Dev-Club" target="_blank">
-                            <button class="button-repositorio"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                            </svg> Repositório</button>
-                        </a>
-
-                        <a href="https://hamburgueriadevclub.netlify.app/" target="_blank">
-                            <button class="button-saiba-mais">Conheça o projeto</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-projeto">
-                <div class="imagem-projeto">
-                    <img src="assets/Home_Jokenpo.png"
-                        alt="Imagem projeto Jokenpo" class="img-projetos" onclick="toggleDescription('description5')">
-                </div>
-
-                <div class="div-explicacao-projeto">
-                    <h1 class="h1-titulo-projeto">Jogo Jokenpo</h1>
-                    <p id="description5" class="description">
-                        Projeto desenvolvido em HTML, CSS e JavaScript.
-                        O objetivo do projeto é praticar conceitos fundamentais de programação, construindo uma base
-                        sólida em cada linguagem e ganhando confiança na criação de códigos interativos.<br>
-                        <br>
-                        Principais aprendizados e conceitos aplicados:<br>
-                        - Estruturas de decisão (if/else)<br>
-                        - Entrada e saída de dados<br>
-                        - Lógica de programação<br>
-                        - Interatividade básica com o usuário<br>
-                    </p>
-
-                    <div class="botao-projeto">
-
-                        <a href="https://github.com/Roberta2205/Jogo-Jokenpo" target="_blank">
-                            <button class="button-repositorio"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                            </svg> Repositório</button>
-                        </a>
-
-                        <a href="https://gamejokenp.netlify.app/" target="_blank">
-                            <button class="button-saiba-mais">Conheça o projeto</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-projeto">
-                <div class="imagem-projeto">
-                    <img src="assets/Home_ConversorMoedas.png"
-                        alt="Imagem projeto Conversor de moedas" class="img-projetos"
-                        onclick="toggleDescription('description6')">
-                </div>
-
-                <div class="div-explicacao-projeto">
-                    <h1 class="h1-titulo-projeto">Conversor de Moedas</h1>
-                    <p id="description6" class="description">Projeto desenvolvido em JavaScript,
-                        HTML e CSS, sendo meu primeiro contato com
-                        a linguagem. Apesar de desafiador no início, permitiu que eu evoluísse do aprendizado de
-                        conceitos básicos até alguns mais avançados.<br>
-                        <br>
-                        O sistema permite que o usuário insira um valor em Reais e realize a conversão para outras
-                        moedas de forma simples e objetiva. As opções disponíveis incluem Dólar, Euro, Libra e Bitcoin.
-                        A interface foi pensada para oferecer uma experiência clara, intuitiva e amigável.<br>
-                    </p>
-
-                    <div class="botao-projeto">
-
-                        <a href="https://github.com/Roberta2205/Conversor-de-moedas-Dev-Club" target="_blank">
-                            <button class="button-repositorio"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                            </svg> Repositório</button>
-                        </a>
-
-                        <a href="https://conversordemoedas-s.netlify.app/" target="_blank">
-                            <button class="button-saiba-mais">Conheça o projeto</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            
-            <div class="card-projeto">
-                <div class="imagem-projeto">
-                    <img src="assets/Home_HarryPotter.png"
-                        alt="Imagem projeto Harry Potter" class="img-projetos"
-                        onclick="toggleDescription('description7')">
-                </div>
-
-                <div class="div-explicacao-projeto">
-                    <h1 class="h1-titulo-projeto">Site Harry Potter</h1>
-                    <p id="description7" class="description">
-                        Desenvolvido na primeira semana do curso, este projeto teve como objetivo testar e aplicar as
-                        ferramentas aprendidas até o momento. Embora simples, serviu como base para consolidar o
-                        conhecimento em HTML e CSS.<br>
-                        <br>
-                        ✨ Ver a evolução entre este e projetos mais avançados mostra o quanto cresci em pouco tempo!
-                    </p>
-
-                    <div class="botao-projeto">
-
-                        <a href="https://github.com/Roberta2205/Meu-primeiro-projeto-Site-Harry-Potter" target="_blank">
-                            <button class="button-repositorio"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                            </svg> Repositório</button>
-                        </a>
-
-                        <a href="https://siteharrypotterr.netlify.app/" target="_blank">
-                            <button class="button-saiba-mais">Conheça o projeto</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-projeto">
-                <div class="imagem-projeto">
-                    <img src="assets/Home_PromptManager.png"
-                        alt="Imagem jogo Flappy Bird" class="img-projetos"
-                        onclick="toggleDescription('description9')">
-                </div>
-
-                <div class="div-explicacao-projeto">
-                    <h1 class="h1-titulo-projeto">Prompt Manager</h1>
-                    <p id="description9" class="description">Essa semana eu tive a honra de participar de um projeto incrível realizado<br>
-                        pela Rocketseat e pelo Rodrigo Gonçalves. Neste projeto foi desenvolvido um Prompt Manager, que nada mais é do que<br>
-                        uma aplicação web prática e intuitiva permitindo armazenamento de todos os seus prompts de Inteligência Artificial,<br>
-                        garantindo mais organização e um acesso rápido no dia a dia.
-                        <br>
-                        Com esse projeto eu aprendi a utilizar a IA do próprio VSCODE e entendi como ela pode ser útil no dia a dia,<br>
-                        garantindo muita agilidade na hora de codar um projeto. Mas veja bem, é sempre recomendado revisar tudo o que a IA coloca<br>
-                        no projeto pois nem sempre ela entrega as melhores opções.<br>
-                        <br>
-                        Com essa aplicação é possível criar, editar, excluir e pesquisar prompts de forma rápida e eficiente, podendo apenas colar na IA.<br>
-                    </p>
-
-                    <div class="botao-projeto">
-
-                        <a href="https://github.com/Roberta2205/Prompt-Manager" target="_blank">
-                            <button class="button-repositorio"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-                            </svg> Repositório</button>
-                        </a>
-
-                        <a href="https://nlwpromptmanagerr.netlify.app/" target="_blank">
-                            <button class="button-saiba-mais">Conheça o projeto</button>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section-premios" id="premios-page">
-
-        <div>
-            <h1 class="h1-title-premios"> Premiações & Reconhecimento 🏆</h1>
+          <h1 class="title-sobre">Reconhecimento</h1>
         </div>
 
         <div class="card-premio">
-            <div class="div-coluna-esquerda">
-
-                <div class="img-premio">
-                    <img src="assets/home-confeitaria.png"
-                        alt="Imagem projeto confeitaria" class="img-premios"
-                        onclick="toggleDescription('description8')">
-                </div>
-
-                <div class="botao-premio">
-                    <a href="assets/home-confeitaria.png" target="_blank">
-                        <button class="button-repositorio"> <svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                                <path
-                                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
-                            </svg> Repositório</button>
-                    </a>
-
-                    <a href="https://lausconfeitaria.netlify.app/" target="_blank">
-                        <button class="button-saiba-mais">Conheça o projeto</button>
-                    </a>
-                </div>
-
+          <div class="div-coluna-esquerda">
+            <div class="img-premio">
+              <img
+                src="src/Img/Capas-projetos/Home-deliciasdalau.png"
+                alt="Imagem projeto confeitaria"
+                class="img-premios"
+              />
             </div>
 
-            <div class="div-coluna-direita">
-                <h1 class="h1-title-explicacao">Lau´s Confeitaria Artesanal</h1>
+            <div class="botao-premio">
+              <a
+                href="https://github.com/Roberta2205/Delicias-da-lau-confeitaria"
+                target="_blank"
+              >
+                <button class="button-repositorio">Repositório</button>
+              </a>
 
-                <p class="description8" id="description8">
-                    Em minha trajetória como desenvolvedora, tive a honra de conquistar meu primeiro troféu no concurso
-                    nacional de programação do DevClub, que reuniu mais de 15 mil participantes.<br>
-                    <br>
-                    Com o projeto Lau’s Confeitaria Artesanal, alcancei a final e fui premiada na categoria “Baby Dev”,
-                    reconhecimento que marcou o início da minha carreira e reforçou minha paixão pela tecnologia.<br>
-                    <br>
-                    Essa conquista simboliza não apenas um prêmio, mas também a certeza de que dedicação e aprendizado
-                    constante abrem caminhos incríveis. ✨
-                </p>
+              <a
+                href="https://confeitariadeliciasdalau.netlify.app/"
+                target="_blank"
+              >
+                <button class="button-saiba-mais">Conheça o projeto</button>
+              </a>
             </div>
+          </div>
+
+          <div class="div-coluna-direita">
+            <h1 class="h1-title-explicacao">Delícias da Lau</h1>
+
+            <p class="description8" id="description8">
+              Em minha trajetória como desenvolvedora, tive a honra de
+              conquistar meu primeiro troféu no concurso nacional de programação
+              do DevClub, que reuniu mais de 15 mil participantes.<br />
+              <br />
+              Com o projeto Lau’s Confeitaria Artesanal, alcancei a final e fui
+              premiada na categoria “Baby Dev”, reconhecimento que marcou o
+              início da minha carreira e reforçou minha paixão pela
+              tecnologia.<br />
+              <br />
+              Essa conquista simboliza não apenas um prêmio, mas também a
+              certeza de que dedicação e aprendizado constante abrem caminhos
+              incríveis. ✨
+            </p>
+          </div>
         </div>
-    </section>
+      </section>
+    </main>
 
+    <footer>
+      <div id="footer_items">
+        <span id="copyright">
+          &copy 2025 Desenvolvido por HR Tech - Todos os direitos reservados.
+        </span>
 
-    <footer class="rodape" id="contato-page">
+        <div class="social-media-buttons">
+          <a href="https://wa.me//5551995165129" class="social-media-button">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
 
-        <div class="div-rodape">
-            <h1 class="h1-rodape">Entre em contato comigo e vamos juntos construir experiências digitais com propósito e
-                inovação!</h1>
-            <div>
-
-                <div class="icones-contato">
-
-                    <a href="https://wa.me//5551995165129">
-                       <svg class="icon-footer"  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-whatsapp"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" /><path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" /></svg>
-                    </a>
-
-                    <a href="https://www.instagram.com/devroberta_/">
-                        <svg class="icon-footer" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M16.5 7.5v.01" /></svg>
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/roberta-lau-67a7732b4/">
-                        <svg class="icon-footer" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 11v5" /><path d="M8 8v.01" /><path d="M12 16v-5" /><path d="M16 16v-3a2 2 0 1 0 -4 0" /><path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z" /></svg>
-                    </a>
-                    
-                    <a href="https://github.com/Roberta2205">
-                        <svg class="icon-footer" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg>
-                    </a>
-
-                </div>
-            </div>
+          <a
+            href="https://www.instagram.com/robertalau_"
+            class="social-media-button"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
     </footer>
 
-    <script src="./script.js"></script>
-</body>
-
+    <script src="src/javascript/script.js"></script>
+  </body>
 </html>

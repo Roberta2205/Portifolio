@@ -1,0 +1,84 @@
+@import url('./Header.css');
+@import url('./Home.css');
+@import url('./Trajetoria.css');
+@import url('./Skills.css');
+@import url('./Projetos.css');
+@import url('./premios.css');
+@import url('/src/styles/Footer.css');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Epunda Slab", serif;
+}
+
+body {
+    scroll-behavior: smooth;
+    background-color: #FBF7F7; 
+}
+
+.title {
+    font-size: 3rem;
+    color: #6D4C4C;
+    display: flex;
+    align-items: center;
+}
+
+.description {
+    font-size: 1.2rem;
+    color: #333333;
+    line-height: 1.6;
+    width: 70%;
+}
+
+.social-media-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 0px;
+}
+
+.social-media-button {
+    width: 45px;
+    height: 45px;
+    background: #A67C8A;
+    color: #FBF7F7;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.social-media-button:hover {
+    transform: scale(1.1);
+    background: #E5CFCF;
+
+}
+
+.button-repositorio {
+    border-radius: 10px;
+    background-color: #A67C8A;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: white;
+}
+
+.button-saiba-mais {
+    border-radius: 10px;
+    background-color: #A67C8A;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
