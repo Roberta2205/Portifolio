@@ -6,6 +6,11 @@
 </p>
 <br>
 
+<h1>:sunflower: Acesse meu portifólio</h1>
+<p>
+  https://portifoliorobertalau.netlify.app/
+</p>
+
 <h1>🎯 Objetivo</h1>
 <p>
 - Criar um ambiente profissional para divulgar meus projetos e habilidades.<br>
@@ -25,13 +30,4 @@
   <br>
 - CSS3 → estilização, responsividade e uso de gradientes.<br>
 <br>
-- JavaScript → interatividade e efeitos dinâmicos.<br>
-</p>
-<br>
-<br>
-<img src="https://github.com/Roberta2205/Portifolio/blob/master/assets/Portifolio%20-%20home.png?raw=true"><br>
-<img src="https://github.com/Roberta2205/Portifolio/blob/master/assets/Portif%C3%B3lio%20-%20trajetoria.png?raw=true"><br>
-<img src="https://github.com/Roberta2205/Portifolio/blob/master/assets/Portifolio%20-%20habilidades.png?raw=true"><br>
-<img src="https://github.com/Roberta2205/Portifolio/blob/master/assets/Portifolio%20-%20projetos.png?raw=true"><br>
-<img src="https://github.com/Roberta2205/Portifolio/blob/master/assets/portifolio%20-%20premiacoes.png?raw=true"><br>
-<img src="https://github.com/Roberta2205/Portifolio/blob/master/assets/portifolio%20-%20rodape.png?raw=true"><br>
+- JavaScript → interatividade e efeitos dinâmicos.
